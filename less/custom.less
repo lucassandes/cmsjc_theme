@@ -1,8 +1,8 @@
 body {
-
   /* For the Footer Menu */
   padding-bottom: 51px;
   background: #f6f6f6;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 
 }
 
@@ -22,42 +22,128 @@ body {
   color: @primary-yellow;
 }
 
-#plugin-classificados {
-  h2 {
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 15px;
-    font-size: @font-size-h3;
-    border-bottom: 2px solid @primary-yellow;
-    padding-bottom: 5px;
-    margin-bottom: 25px;
-    span {
-      float: right;
-      font-size: 14px;
-      margin-top: 12px;
-      text-transform: none;
+#accessibility-bar {
+  height: 2em;
+  background-color: @acessibility-bg;
+  font-size: 11px;
 
+  ul {
+    list-style: none;
+    -webkit-padding-start: 0px;
+
+    li {
+      display: inline;
+
+      a {
+        color: @gray-dark;
+        padding: 0.3em 1em 0 0;
+        display: inline-block;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+
+  }
+  #portal-siteactions {
+
+    text-align: center;
+    text-transform: uppercase;
+    a {
+      padding: 0.3em 0 0 1em;
     }
   }
-  border: 3px solid @border-color;
-  padding: 15px;
-  background: white;
-  .border-right {
-    border-right: 1px solid @border-color;
-  }
 
-  h5 {
-    text-align: center;
-  }
-  .img-classificado {
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 15px;
-  }
 }
 
 #header {
   background: @primary-blue  url("@{image-url}/bg-header.jpg") repeat;
+  span.camara-municipal {
+    text-transform: uppercase;
+    font-size: 1.2em;
+
+  }
+  #logo {
+    text-align: center;
+    margin-top: 0.3em;
+    a {
+      color: white;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    h1 {
+
+      padding: 0;
+      margin: 0;
+      font-size: 2.5em;
+      font-weight: @font-fat;
+
+    }
+  }
+
+  #social-icons {
+    display: table;
+    margin: 0 auto;
+
+    padding-top: 1em;
+
+    .replace {
+      display: block;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      text-indent: -9999px;
+    }
+
+    .sprite {
+      background: url("@{image-url}/social-sprites.png") no-repeat;
+    }
+
+    ul {
+      list-style: none;
+      line-height: normal;
+      margin-left: 0;
+      padding-left: 0;
+      li {
+        z-index: 7;
+        height: 30px;
+        float: left;
+        padding-right: 5px;
+        margin-left: 0;
+      }
+
+    }
+
+    a {
+      display: block;
+      width: 27px;
+      height: 27px;
+      background-image: url("@{image-url}/social-sprites.png") no-repeat;
+    }
+    .facebook-btn, .twitter-btn, .youtube-btn {
+      width: 27px;
+      height: 27px;
+
+    }
+    .facebook-btn {
+      background-position: 0 0px;
+    }
+
+    .twitter-btn {
+      background-position: -27px 0px;
+    }
+
+    .youtube-btn {
+      background-position: -54px 0px;
+    }
+
+    .instagram-btn {
+      background-position: -81px 0px;
+    }
+  }
 }
 
 .dmbs-header {
@@ -76,13 +162,14 @@ body {
     margin-bottom: 20px;
   }
   .widget-search-top {
-    margin-top: 50px;
+    margin-top: 1em;
   }
 
   img.logo-brasao {
-    float: left;
-    margin-top: 18px;
-    margin-right: 20px;
+    // float: left;
+    //text-align: center;
+    margin-top: 1.5em;
+
   }
 }
 
@@ -91,55 +178,6 @@ body {
 }
 
 .dmbs-header-text {
-
-}
-
-.tres-destaques {
-
-  position: relative;
-  margin-bottom: 10px;
-  .widget-tempo {
-    background:@primary-blue  url("@{image-url}/bg-widget.png") repeat; ;
-  }
-  .tres-destaques-item {
-    img {
-      //border: 2px solid @primary-blue !important;
-
-    }
-    &:hover {
-      opacity: 0.8;
-    }
-
-
-  }
-
-  a {
-
-    .dizeres {
-      margin-top: -80px;
-      color: white;
-      &:hover {
-        text-decoration: none
-      }
-
-      h2 {
-        margin: 0 0 10px 0;
-        color: white;
-        text-shadow: 2px 1px 1px #000;
-        font-weight: bold;
-        font-style: italic;
-
-      }
-    }
-    h3 {
-      margin: 0;
-      padding: 0;
-      font-size: 14px;
-      text-shadow: 2px 1px 1px #000;
-      color: white;
-
-    }
-  }
 
 }
 
@@ -397,7 +435,7 @@ body {
     }
 
     ol {
-      margin:0;
+      margin: 0;
       padding: 0;
       text-align: left;
     }
@@ -411,7 +449,7 @@ body {
       font-size: 14px;
       font-weight: bold;
     }
-    
+
   }
   .red {
     color: @primary-red;
@@ -423,13 +461,11 @@ body {
     border-color: @primary-green;
   }
 
-
   .widget-proximos-aniversariantes, .birthdays-widget {
     padding-top: 10px;
     .item-aniversario {
-     // border-bottom: 1px dotted darken(@border-color, 10%);
+      // border-bottom: 1px dotted darken(@border-color, 10%);
       padding: 10px 0;
-
 
       img {
         float: left;
@@ -466,7 +502,7 @@ body {
               font-style: normal;
               font-weight: normal;
               line-height: 1;
-              background: url("@{image-url}/birthday-cake.png") no-repeat ;
+              background: url("@{image-url}/birthday-cake.png") no-repeat;
               width: 20px;
             }
 
@@ -477,7 +513,7 @@ body {
           }
 
           &.local-trabalho, &.data {
-           margin:0;
+            margin: 0;
             padding: 0;
             color: #666;
             font-family: Georgia, serif;
@@ -533,7 +569,41 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 100px;
-  background-color: @border-color;
+  background-color: @gray-lighter;
+
+  /** estilos da marcação do site antigo **/
+  padding-top: 1em;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  ul {
+    margin-bottom: 1em;
+    list-style: none;
+    li {
+      float: left;
+      list-style: none;
+      // width: 200px;
+
+      span {
+        font-weight: bold;
+        font-size: 1em;
+      }
+      ul {
+        li {
+          float: none;
+          font-size: 0.90em;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+  /** fim da marcacao antiga **/
 
   h2, h3 {
     font-family: 'Droid Sans', sans-serif;
@@ -555,6 +625,20 @@ body {
   }
 
 }
+
+
+.thin-footer {
+  background-color: @thin-footer;
+  padding: 1em 0 1.3em 0;
+  .brasao-small {
+    float: left;
+    margin: 0em 1em 0 0;
+  }
+  p {
+    font-size: 0.85em;
+  }
+}
+
 
 .red-bar, .blue-bar, .yellow-bar {
   width: 100%/3;
@@ -579,7 +663,7 @@ body {
 }
 
 .dmbs-footer-menu {
-  .navbar {
+  /*.navbar {
     background: none;
     border: none;
     border-left: 1px solid darken(@border-color, 20%);
@@ -598,7 +682,7 @@ body {
   .nav > li > a:hover, .nav > li > a:focus {
     color: #666;
     text-decoration: underline;
-  }
+  }*/
 
 }
 
@@ -622,23 +706,82 @@ body {
   float: left;
 }
 
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
   .col-sm-5ths {
     width: 20%;
     float: left;
   }
+
+  #header {
+    span.camara-municipal {
+      font-size: 1.4em;
+    }
+    #logo {
+      text-align: left;
+      a {
+        color: white;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      margin-top: 1.5em;
+
+      h1 {
+        font-size: 2.8em;
+        font-weight: @font-fat;
+        a {
+          color: white;
+        }
+      }
+    }
+
+    #social-icons {
+      margin-top: 0.8em;
+      display: block !important;
+
+      ul {
+        float: right;
+      }
+
+    }
+  }
 }
 
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
   .col-md-5ths {
     width: 20%;
     float: left;
   }
+
+  #accessibility-bar {
+    #accessibility {
+      float: left;
+      display: block;
+      width: 50%;
+    }
+    #portal-siteactions {
+      float: right;
+      display: block;
+      width: 50%;
+      text-align: right;
+    }
+  }
+
+  .dmbs-header {
+    .widget-search-top {
+      margin-top: 0em;
+    }
+  }
+
 }
 
-@media (min-width: 1200px) {
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
   .container {
-    width: 970px;
+    //width: 970px;
   }
 
   .col-lg-5ths {
@@ -647,9 +790,8 @@ body {
   }
 }
 
-
 .loader-gif {
-  background: url("@{image-url}/gif-loader.GIF")  center center no-repeat;
+  background: url("@{image-url}/gif-loader.GIF") center center no-repeat;
 }
 
 iframe {

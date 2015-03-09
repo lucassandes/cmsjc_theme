@@ -1,14 +1,27 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: Index
+ **/
+?><?php get_header(); ?>
 
 <?php get_template_part('template-part', 'head'); ?>
 
 <?php get_template_part('template-part', 'topnav'); ?>
 
+<?php
+/*
+$latest_blog_posts = new WP_Query( array( 'posts_per_page' => 3 ) );
 
-
+if ( $latest_blog_posts->have_posts() ) : while ( $latest_blog_posts->have_posts() ) : $latest_blog_posts->the_post();
+    the_content();
+endwhile; endif;
+*/
+?>
 <!-- start content container -->
+
 <div class=" dmbs-content"> <!-- tinha um row aqui -->
-<?php if (is_home()): ?>
+
+<?php if (is_front_page()): ?>
     <div class="quick-links col-md-12">
         <div class="row">
             <div class="col-md-2 col-sm-2 col-xs-4">
@@ -96,7 +109,7 @@
 <div class="clear"></div>
 
 <?php // tres destaques ?>
-<?php if (is_home()) : ?>
+<?php if (is_front_page()) : ?>
     <div class="tres-destaques row">
         <div class="col-md-4 tres-destaques-item">
             <?php

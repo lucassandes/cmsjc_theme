@@ -1,12 +1,9 @@
-<?php if (has_nav_menu('footer_menu')) : ?>
+<?php //if (has_nav_menu('footer_menu')) : ?>
 
     <div class="footer">
         <div class="red-bar"></div><div class="yellow-bar"></div><div class="blue-bar"></div>
         <div class="container ">
-            <div class="footer-logo col-md-3 row">
-                <h2><?php bloginfo('name'); ?></h2>
-                <h3>Câmara Municipal</h3>
-            </div>
+
 
             <div class="dmbs-footer-menu col-md-9">
                 <nav class="navbar navbar-inverse" role="navigation">
@@ -36,5 +33,29 @@
                 </nav>
             </div>
         </div>
+
+        <div class="thin-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class="brasao-small">
+
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/brasao-small.png"
+                                 alt="Brasão de São José dos Campos"/>
+                        </div>
+                    </div>
+                    <div class="col-md-11">
+                        <p>
+                            Câmara Municipal de Sâo José dos Campos<br/>
+                            Rua Desembargador Francisco Murilo Pinto, 33 - Vila Sta. Luzia - CEP: 12209-535<br/>
+                            Tel: +55 (12) 3925-6566.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-<?php endif; ?>
+
+
+<?php //endif; ?>
