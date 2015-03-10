@@ -12,6 +12,9 @@ function remove_more_link_scroll($link)
 
 add_filter('the_content_more_link', 'remove_more_link_scroll');
 
+
+//include 'theme-options.php';
+
 if ( !function_exists('register_sidebar')) {
 register_sidebar(
     array(

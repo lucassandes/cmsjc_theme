@@ -19,5 +19,25 @@
 
 
 <?php wp_footer(); ?>
+
+    <script language="javascript" type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/yt-jquery.js"></script>
+    <!-- YOUTUBE -->
+
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('#youtubevideos').youTubeChannel({
+                userName: 'camarasjc',
+                showPlayer: true,
+                playerWidth: "600",
+                playerHeight: "400",
+                channel: "uploads",
+                hideAuthor: true,
+                numberToDisplay: 3,
+                linksInNewWindow: false
+            });
+        });
+
+    </script>
 </body>
 </html>

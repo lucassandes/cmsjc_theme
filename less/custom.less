@@ -597,6 +597,7 @@ body {
   margin-bottom: 100px;
 }
 
+
 .footer {
 
   position: absolute;
@@ -818,6 +819,14 @@ body {
     float: left;
   }
 
+  .tv-camara-widget {
+    p {
+      max-height: 120px;
+      overflow-y: scroll;
+
+    }
+  }
+
   #carousel-banner-principal {
     .carousel-caption {
       h3 {
@@ -874,10 +883,35 @@ body {
   background: url("@{image-url}/gif-loader.GIF") center center no-repeat;
 }
 
-iframe {
-  height: 173px !important;
 
-  border-right: 2px solid @primary-blue;
-  border-bottom: 2px solid @primary-blue;
+.tv-camara-widget {
+  padding-right: 15px;
+  padding-left: 10px;
+  h3 {
+    font-size: 1em;
+    font-weight: bold;
+  }
 
+  p {
+    font-size: 0.9em;
+
+  }
+
+  h4 {
+    border-top: 3px solid black;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    padding-top: 0.4em;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .embed-responsive {
+    margin: 15px 0 15px 0;
+    // margin: 0 -15px 0 -15px;
+  }
+
+  /* .right-content{
+    margin-right:15px;
+    margin-left:-15px;
+  }*/
 }

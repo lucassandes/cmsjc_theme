@@ -18,7 +18,7 @@ endwhile; endif;
 */
 ?>
 <!-- start content container -->
-<div class="container dmbs-container">
+
 <div id="carousel-banner-principal" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -33,94 +33,126 @@ endwhile; endif;
     <div class="carousel-inner">
 
 
-
         <div class="item active">
             <!-- image for big devices -->
             <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4032/mulheres+desafios+e+conquistas"><img
                     src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/45e3ecdc4db38b39e344_1140x365_1_1.jpg"
-                    alt="Mulheres: Desafios e Conquistas" title="Mulheres: Desafios e Conquistas" class="hidden-sm hidden-xs"/></a>
+                    alt="Mulheres: Desafios e Conquistas" title="Mulheres: Desafios e Conquistas"
+                    class="hidden-sm hidden-xs"/></a>
             <!--image for small devices -->
 
             <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4032/mulheres+desafios+e+conquistas"><img
                     src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/45e3ecdc4db38b39e344_720x400_1_1.jpg"
-                    alt="Mulheres: Desafios e Conquistas" title="Mulheres: Desafios e Conquistas" class="visible-sm visible-xs"/></a>
+                    alt="Mulheres: Desafios e Conquistas" title="Mulheres: Desafios e Conquistas"
+                    class="visible-sm visible-xs"/></a>
 
             <div class="carousel-caption ">
-                <h3><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4032/mulheres+desafios+e+conquistas">Mulheres: Desafios e Conquistas</a></h3>
+                <h3><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4032/mulheres+desafios+e+conquistas">Mulheres:
+                        Desafios e Conquistas</a></h3>
 
-                <p class=" hidden-xs"><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4032/mulheres+desafios+e+conquistas">Reportagem da TV Câmara mostra atuação da mulher na mudança da sociedade</a></p>
+                <p class=" hidden-xs"><a
+                        href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4032/mulheres+desafios+e+conquistas">Reportagem
+                        da TV Câmara mostra atuação da mulher na mudança da sociedade</a></p>
             </div>
         </div>
         <div class="item ">
             <!-- image for big devices -->
             <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4030/juiz+da+vara+especial+civel+e+chefe+do+procon+visitam+a+camara"><img
                     src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/565c4e2a9740a74309f4_1140x365_1_1.jpg"
-                    alt="Juiz da Vara Especial C�vel e chefe do Procon visitam a C�mara" title="Juiz da Vara Especial Cível e chefe do Procon visitam a Câmara" class="hidden-sm hidden-xs"/></a>
+                    alt="Juiz da Vara Especial C�vel e chefe do Procon visitam a C�mara"
+                    title="Juiz da Vara Especial Cível e chefe do Procon visitam a Câmara" class="hidden-sm hidden-xs"/></a>
             <!--image for small devices -->
 
             <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4030/juiz+da+vara+especial+civel+e+chefe+do+procon+visitam+a+camara"><img
                     src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/565c4e2a9740a74309f4_720x400_1_1.jpg"
-                    alt="Juiz da Vara Especial C�vel e chefe do Procon visitam a C�mara" title="Juiz da Vara Especial Cível e chefe do Procon visitam a Câmara" class="visible-sm visible-xs"/></a>
+                    alt="Juiz da Vara Especial C�vel e chefe do Procon visitam a C�mara"
+                    title="Juiz da Vara Especial Cível e chefe do Procon visitam a Câmara"
+                    class="visible-sm visible-xs"/></a>
 
             <div class="carousel-caption ">
-                <h3><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4030/juiz+da+vara+especial+civel+e+chefe+do+procon+visitam+a+camara">Juiz da Vara Especial Cível e chefe do Procon visitam a Câmara</a></h3>
+                <h3>
+                    <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4030/juiz+da+vara+especial+civel+e+chefe+do+procon+visitam+a+camara">Juiz
+                        da Vara Especial Cível e chefe do Procon visitam a Câmara</a></h3>
 
-                <p class=" hidden-xs"><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4030/juiz+da+vara+especial+civel+e+chefe+do+procon+visitam+a+camara">Expectativa do presidente da Câmara é ampliar parceria para melhor atender a população</a></p>
+                <p class=" hidden-xs"><a
+                        href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4030/juiz+da+vara+especial+civel+e+chefe+do+procon+visitam+a+camara">Expectativa
+                        do presidente da Câmara é ampliar parceria para melhor atender a população</a></p>
             </div>
         </div>
         <div class="item ">
             <!-- image for big devices -->
             <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4015/combate+as+drogas+e+a+principal+reivindicacao+em+audiencia+publica+da+pm"><img
                     src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/7893c6a5785fe709ff63_1140x365_1_1.jpg"
-                    alt="Combate �s drogas � a principal reivindica��o em audi�ncia p�blica da PM" title="Combate às drogas é a principal reivindicação em audiência pública da PM" class="hidden-sm hidden-xs"/></a>
+                    alt="Combate �s drogas � a principal reivindica��o em audi�ncia p�blica da PM"
+                    title="Combate às drogas é a principal reivindicação em audiência pública da PM"
+                    class="hidden-sm hidden-xs"/></a>
             <!--image for small devices -->
 
             <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4015/combate+as+drogas+e+a+principal+reivindicacao+em+audiencia+publica+da+pm"><img
                     src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/7893c6a5785fe709ff63_720x400_1_1.jpg"
-                    alt="Combate �s drogas � a principal reivindica��o em audi�ncia p�blica da PM" title="Combate às drogas é a principal reivindicação em audiência pública da PM" class="visible-sm visible-xs"/></a>
+                    alt="Combate �s drogas � a principal reivindica��o em audi�ncia p�blica da PM"
+                    title="Combate às drogas é a principal reivindicação em audiência pública da PM"
+                    class="visible-sm visible-xs"/></a>
 
             <div class="carousel-caption ">
-                <h3><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4015/combate+as+drogas+e+a+principal+reivindicacao+em+audiencia+publica+da+pm">Combate às drogas é a principal reivindicação em audiência pública da PM</a></h3>
+                <h3>
+                    <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4015/combate+as+drogas+e+a+principal+reivindicacao+em+audiencia+publica+da+pm">Combate
+                        às drogas é a principal reivindicação em audiência pública da PM</a></h3>
 
-                <p class=" hidden-xs"><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4015/combate+as+drogas+e+a+principal+reivindicacao+em+audiencia+publica+da+pm">A audiência sobre segurança , realizada na Câmara, contou com aproximadamente 250 pessoas</a></p>
+                <p class=" hidden-xs"><a
+                        href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4015/combate+as+drogas+e+a+principal+reivindicacao+em+audiencia+publica+da+pm">A
+                        audiência sobre segurança , realizada na Câmara, contou com aproximadamente 250 pessoas</a></p>
             </div>
         </div>
         <div class="item ">
             <!-- image for big devices -->
             <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4012/liderancas+regionais+fazem+encontro+em+defesa+do+rio+paraiba"><img
                     src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/c2afb8d5d44453cba5d5_1140x365_1_1.jpg"
-                    alt="Lideran�as regionais fazem encontro em defesa do rio Para�ba" title="Lideranças regionais fazem encontro em defesa do rio Paraíba" class="hidden-sm hidden-xs"/></a>
+                    alt="Lideran�as regionais fazem encontro em defesa do rio Para�ba"
+                    title="Lideranças regionais fazem encontro em defesa do rio Paraíba"
+                    class="hidden-sm hidden-xs"/></a>
             <!--image for small devices -->
 
             <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4012/liderancas+regionais+fazem+encontro+em+defesa+do+rio+paraiba"><img
                     src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/c2afb8d5d44453cba5d5_720x400_1_1.jpg"
-                    alt="Lideran�as regionais fazem encontro em defesa do rio Para�ba" title="Lideranças regionais fazem encontro em defesa do rio Paraíba" class="visible-sm visible-xs"/></a>
+                    alt="Lideran�as regionais fazem encontro em defesa do rio Para�ba"
+                    title="Lideranças regionais fazem encontro em defesa do rio Paraíba" class="visible-sm visible-xs"/></a>
 
             <div class="carousel-caption ">
-                <h3><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4012/liderancas+regionais+fazem+encontro+em+defesa+do+rio+paraiba">Lideranças regionais fazem encontro em defesa do rio Paraíba</a></h3>
+                <h3>
+                    <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4012/liderancas+regionais+fazem+encontro+em+defesa+do+rio+paraiba">Lideranças
+                        regionais fazem encontro em defesa do rio Paraíba</a></h3>
 
-                <p class=" hidden-xs"><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4012/liderancas+regionais+fazem+encontro+em+defesa+do+rio+paraiba">O grupo quer transparência e diálogo frente à crise hídrica</a></p>
+                <p class=" hidden-xs"><a
+                        href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4012/liderancas+regionais+fazem+encontro+em+defesa+do+rio+paraiba">O
+                        grupo quer transparência e diálogo frente à crise hídrica</a></p>
             </div>
         </div>
         <div class="item ">
             <!-- image for big devices -->
             <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4008/programas+utilizados+para+fazer+a+declaracao+do+ir+ja+estao+disponiveis"><img
                     src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/dfd8b8e998a8a4800825_1140x365_1_1.jpg"
-                    alt="Programas utilizados para fazer a declara��o do IR j� est�o dispon�veis" title="Programas utilizados para fazer a declaração do IR já estão disponíveis" class="hidden-sm hidden-xs"/></a>
+                    alt="Programas utilizados para fazer a declara��o do IR j� est�o dispon�veis"
+                    title="Programas utilizados para fazer a declaração do IR já estão disponíveis"
+                    class="hidden-sm hidden-xs"/></a>
             <!--image for small devices -->
 
             <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4008/programas+utilizados+para+fazer+a+declaracao+do+ir+ja+estao+disponiveis"><img
                     src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/dfd8b8e998a8a4800825_720x400_1_1.jpg"
-                    alt="Programas utilizados para fazer a declara��o do IR j� est�o dispon�veis" title="Programas utilizados para fazer a declaração do IR já estão disponíveis" class="visible-sm visible-xs"/></a>
+                    alt="Programas utilizados para fazer a declara��o do IR j� est�o dispon�veis"
+                    title="Programas utilizados para fazer a declaração do IR já estão disponíveis"
+                    class="visible-sm visible-xs"/></a>
 
             <div class="carousel-caption ">
-                <h3><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4008/programas+utilizados+para+fazer+a+declaracao+do+ir+ja+estao+disponiveis">Programas utilizados para fazer a declaração do IR já estão disponíveis</a></h3>
+                <h3>
+                    <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4008/programas+utilizados+para+fazer+a+declaracao+do+ir+ja+estao+disponiveis">Programas
+                        utilizados para fazer a declaração do IR já estão disponíveis</a></h3>
 
-                <p class=" hidden-xs"><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4008/programas+utilizados+para+fazer+a+declaracao+do+ir+ja+estao+disponiveis">Prazo para entrega da declaração vai até o próximo dia 30 de abril. </a></p>
+                <p class=" hidden-xs"><a
+                        href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4008/programas+utilizados+para+fazer+a+declaracao+do+ir+ja+estao+disponiveis">Prazo
+                        para entrega da declaração vai até o próximo dia 30 de abril. </a></p>
             </div>
         </div>
-
-
 
 
         <!--
@@ -160,251 +192,70 @@ endwhile; endif;
 </div>
 
 <!-- slider -->
-<div class="container dmbs-container">
+<!--<div class="container dmbs-container"> essa linha  -->
 
 <div class=" dmbs-content"> <!-- tinha um row aqui -->
 
-<?php if (is_front_page()): ?>
-    <div class="quick-links col-md-12">
-        <div class="row">
-            <div class="col-md-2 col-sm-2 col-xs-4">
-                <div class=" text-center">
-                    <a href="http://www.camarasjc.sp.gov.br/assista2.php">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/icon-tv.png" height="40"/>
-                    </a>
-                </div>
+    <?php if (is_front_page()): ?>
 
-                <div class=" text-center">
-                    <a href="http://www.camarasjc.sp.gov.br/assista2.php" class="text-center">Assista à Sessão </a>
-                </div>
-
-
-            </div>
-
-
-            <div class="col-md-2 col-sm-2  col-xs-4">
-                <div class=" text-center">
-                    <a href="http://intranet/listatel.pdf">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/icon-telefones.png"
-                             height="40"/>
-                    </a>
-                </div>
-
-                <div class=" text-center">
-                    <a href="http://intranet/listatel.pdf" class="text-center">Lista de Ramais </a>
-                </div>
-
-            </div>
-
-            <div class="col-md-2 col-sm-2  col-xs-4">
-                <div class=" text-center">
-                    <a href="http://200.174.132.60:8080/cmsjc/websis/siapegov/recursos_humanos/grh/grh_rh_online.php">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/icon-portal.png" height="40"/>
-                    </a>
-                </div>
-
-                <div class=" text-center">
-                    <a href="http://200.174.132.60:8080/cmsjc/websis/siapegov/recursos_humanos/grh/grh_rh_online.php"
-                       class="text-center">Portal do Servidor </a>
-                </div>
-            </div>
-
-            <div class="col-md-2 col-sm-2  col-xs-4">
-                <div class=" text-center">
-                    <a href="http://camarasjc2.hospedagemdesites.ws/2015">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/icon-cmsjc.png" height="40"/>
-                    </a>
-                </div>
-
-                <div class=" text-center">
-                    <a href="http://camarasjc2.hospedagemdesites.ws/2015" class="text-center">Site CMSJC </a>
-                </div>
-            </div>
-
-            <div class="col-md-2 col-sm-2  col-xs-4">
-                <div class=" text-center">
-                    <a href="http://www.santander.com.br/">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/icon-santander.png"
-                             height="40"/>
-                    </a>
-                </div>
-
-                <div class=" text-center">
-                    <a href="http://www.santander.com.br/" class="text-center">Santander </a>
-                </div>
-            </div>
-
-            <div class="col-md-2 col-sm-2  col-xs-4">
-                <div class=" text-center">
-                    <a href="http://www.unimedsjc.com.br/site/guiamedico.php">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/icon-guia-medico.png"
-                             height="40"/>
-                    </a>
-                </div>
-
-                <div class=" text-center">
-                    <a href="http://www.unimedsjc.com.br/site/guiamedico.php" class="text-center">Guia Médico </a>
-                </div>
-            </div>
-        </div>
-    </div>
-<?php endif; ?>
-<div class="clear"></div>
-
-<?php // tres destaques ?>
-<?php if (is_front_page()) : ?>
-    <div class="tres-destaques row">
-        <div class="col-md-4 tres-destaques-item">
-            <?php
-            $query = new WP_Query(array('post_type' => 'dica', 'posts_per_page' => 1));
-            $i = 0;
-            while ($query->have_posts()) :
-                $query->the_post(); ?>
-
-                <?php if (has_post_thumbnail()) : ?>
-                <a href="<?php the_permalink(); ?>"> <?php the_post_thumbnail('small-banner', array('class' => 'img-responsive img-zoom')); ?></a>
-            <?php endif; ?>
-                <a href="<?php the_permalink(); ?>">
-                    <div class="col-md-11 dizeres">
-                        <h2 class="title-zoom">Você indica </h2>
-
-                        <h3><?php the_excerpt(); ?></h3>
-                    </div>
-                </a>
-            <?php endwhile; ?>
-
-
-        </div>
-
-
-        <div class="col-md-4 tres-destaques-item">
-            <?php
-            $query = new WP_Query(array('post_type' => 'conheca', 'posts_per_page' => 1));
-            $i = 0;
-            while ($query->have_posts()) :
-                $query->the_post(); ?>
-
-                <?php if (has_post_thumbnail()) : ?>
-                <a href="<?php the_permalink(); ?>"> <?php the_post_thumbnail('small-banner', array('class' => 'img-responsive ')); ?></a>
-            <?php endif; ?>
-                <a href="<?php the_permalink(); ?>">
-                    <div class="col-md-11 dizeres">
-                        <h2 class="title-zoom">Conheça </h2>
-
-                        <h3><?php the_excerpt(); ?></h3>
-                    </div>
-                </a>
-            <?php endwhile; ?>
-
-
-        </div>
-
-
-        <div class="col-md-4 loader-gif">
-
-
-
-            <!-- Widget Previs&atilde;o de Tempo CPTEC/INPE-->
-            <iframe frameborder="0" allowtransparency="yes" scrolling="no" width="300" heigth="200"
-                    src="http://www.tempoagora.com.br/ta-widgets?cidades=SaoJosedosCampos-SP&amp;tipo=horizontal"></iframe>
-
-            <!--
-            <iframe id="myIframe" allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0"
-                    frameborder="0"
-                    scrolling="no" src="http://www.cptec.inpe.br/widget/widget.php?p=4963&w=h&c=748ccc&f=ffffff"
-                    height="190px" width="293px" class="widget-tempo" align="right"></iframe>
-            <noscript>Previs&atilde;o de <a href="http://www.cptec.inpe.br/cidades/tempo/4963">São José dos
-                    Campos/SP</a> oferecido por <a href="http://www.cptec.inpe.br">CPTEC/INPE</a></noscript>
-
-            -->
-
-
-        </div>
-    </div>
+    <?php endif; ?>
     <div class="clear"></div>
-<?php endif; ?>
 
-<div class="row">
 
-    <?php //left sidebar ?>
-    <?php get_sidebar('left'); ?>
+    <div class="row">
 
-    <div class="col-md-<?php devdmbootstrap3_main_content_width(); ?> dmbs-main">
+        <?php //left sidebar ?>
+        <?php get_sidebar('left'); ?>
 
-        <?php
+        <div class="col-md-<?php devdmbootstrap3_main_content_width(); ?> dmbs-main">
 
-        //if this was a search we display a page header with the results count. If there were no results we display the search form.
-        if (is_search()) :
+            <?php
 
-            $total_results = $wp_query->found_posts;
+            //if this was a search we display a page header with the results count. If there were no results we display the search form.
+            if (is_search()) :
 
-            echo "<h2 class='page-header'>" . sprintf(__('%s Search Results for "%s"', 'devdmbootstrap3'), $total_results, get_search_query()) . "</h2>";
+                $total_results = $wp_query->found_posts;
 
-            if ($total_results == 0) :
-                get_search_form(true);
+                echo "<h2 class='page-header'>" . sprintf(__('%s Search Results for "%s"', 'devdmbootstrap3'), $total_results, get_search_query()) . "</h2>";
+
+                if ($total_results == 0) :
+                    get_search_form(true);
+                endif;
+
             endif;
 
-        endif;
+            ?>
 
-        ?>
+            <h2>Últimas Notícias<i class="icon-angle-double-right"></i></h2>
 
+            <div class="container-box ">
 
-        <?php // theloop
-        $i = 0;
-        /*if ( have_posts() ) : while ( have_posts() && $i < 10 ) : the_post(); ?>
-               $i++; */
-        if (have_posts()) : while (have_posts()) : the_post();
+                <?php // theloop
 
-
-            // single post
-            if (is_single()) : ?>
-                <?php   get_post_type();
-                if ((strcmp(get_post_type(), 'classificado'))) echo('<div class="post-single">');
-                ?>
+                $latest_blog_posts = new WP_Query(array('posts_per_page' => 6));
+                $postcount = 0;
+                if ($latest_blog_posts->have_posts()) :
+                while ($latest_blog_posts->have_posts()) : $latest_blog_posts->the_post(); ?>
+                    <?php //echo ($i == 0) ? '<h2>Últimos Avisos<i class="icon-angle-double-right"></i></h2>' : '';
+                    $postcount++; ?>
 
 
-                <?php if ((strcmp(get_post_type(), 'classificado'))) get_template_part('template-part', 'postmeta'); ?>
+                    <div <?php post_class('noticia col-md-6'); ?> class="bs-callout bs-callout-info">
 
-                <h2 class="page-header"><?php the_title(); ?></h2>
-                <div <?php post_class('post'); ?> >
+                        <?php get_template_part('template-part', 'postmeta'); ?>
 
 
-                    <?php /*if (has_post_thumbnail()) : ?>
-                    <?php the_post_thumbnail(); ?>
-                    <div class="clear"></div>
-                <?php endif; */
-                    ?>
-                    <?php the_content(); ?>
-                    <?php wp_link_pages(); ?>
+                        <h3 class="page-header">
+                            <a href="<?php the_permalink(); ?>"
+                               title="<?php echo esc_attr(sprintf(__('Permalink to %s', 'devdmbootstrap3'), the_title_attribute('echo=0'))); ?>"
+                               rel="bookmark"><?php the_title(); ?></a>
+                        </h3>
 
-                    <?php //comments_template(); ?>
 
-                    <?php if ((strcmp(get_post_type(), 'classificado'))) echo('</div>'); ?>
-                </div>
-            <?php
-            // list of posts
-            else : ?>
+                        <?php the_excerpt(); ?>
+                        <?php wp_link_pages(); ?>
 
-                <?php echo ($i == 0) ? '<h2>Últimos Avisos<i class="icon-angle-double-right"></i></h2>' : '';
-                $i++ ?>
-
-                <div <?php post_class('post-index'); ?> class="bs-callout bs-callout-info">
-
-                    <?php get_template_part('template-part', 'postmeta'); ?>
-                    <h3 class="page-header">
-                        <a href="<?php the_permalink(); ?>"
-                           title="<?php echo esc_attr(sprintf(__('Permalink to %s', 'devdmbootstrap3'), the_title_attribute('echo=0'))); ?>"
-                           rel="bookmark"><?php the_title(); ?></a>
-                    </h3>
-
-                    <?php if (has_post_thumbnail()) : ?>
-                        <?php the_post_thumbnail(array(150, 150)); ?>
-
-                    <?php endif; ?>
-                    <?php the_content(); ?>
-                    <?php wp_link_pages(); ?>
-
-                    <?php /*if (comments_open()) : ?>
+                        <?php /*if (comments_open()) : ?>
                         <div class="clear"></div>
                         <p class="text-right">
                             <a class="btn btn-success"
@@ -412,17 +263,18 @@ endwhile; endif;
                                 <span class="glyphicon glyphicon-comment"></span></a>
                         </p>
                     <?php endif; */
+                        ?>
+                    </div>
+                    <?php
+                    if (($postcount % 2) == 0)
+                        echo('<div class="clear"></div>');
                     ?>
-                </div>
-
-            <?php  endif; ?>
-
-        <?php endwhile; ?>
-            <div class="navigation">
 
 
-                <?php posts_nav_link(); ?>
+                <?php endwhile; ?>
+
             </div>
+
 
 
 
@@ -430,82 +282,62 @@ endwhile; endif;
 
             <?php get_404_template(); ?>
 
-        <?php endif; ?>
+        <?php
+        endif; ?>
 
+
+        </div>
+
+
+
+        <?php //get the right sidebar ?>
+        <?php get_sidebar('right'); ?>
 
     </div>
 
-    <?php //get the right sidebar ?>
-    <?php get_sidebar('right'); ?>
+    <!-- TV CÂMARA -->
 
+    <div class="col-md-12">
+        <h2 class="red">
+            <div title="Code: 0xe807" class="the-icons span3">TV Câmara<i class="icon-angle-double-right"></i>
+        </h2>
 
-</div>
+        <!--<iframe width="356" height='330' frameborder='0' scrolling="no" src="http://www.cmsjc.net/player.html" class="tv-ao-vivo"></iframe>-->
 
-<!-- CLASSIFICADOS -->
-<div id="plugin-classificados">
-    <h2>Classificados<i class="icon-angle-double-right yellow"></i> <span><a href="#">Veja todos</a></span></h2>
+        <div class="container-box tv-camara-widget">
 
-    <?php
-    $query = new WP_Query(array('post_type' => 'classificado', 'orderby' => 'rand', 'posts_per_page' => 5));
-    $i = 0;
-    while ($query->have_posts()) :
-        $query->the_post();
-        $i++;
-        ?>
+            <div class="row">
+                <div id="youtubevideos"></div>
+                <p class="text-right" style="margin-right: 15px;">Veja todos os vídeos em nosso canal do YouTube</p>
+                <!--<div class="col-md-7" >
 
-        <div class="col-md-5ths border-right <?php echo(($i == 5) ? 'no-border' : ''); ?>">
-            <?php if (has_post_thumbnail()) : ?>
-                <div class="img-classificado">
-                    <a href="<?php the_permalink(); ?>"
-                       title="<?php echo esc_attr(sprintf(__('Permalink to %s', 'devdmbootstrap3'), the_title_attribute('echo=0'))); ?>"
-                       rel="bookmark">
-                        <?php the_post_thumbnail(array(120, 120)); ?>
-                    </a>
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/0E7-hL1f1xg" frameborder="0"
+                                allowfullscreen></iframe>
+                    </div>
                 </div>
+                <div class="col-md-5 right-content" >
+                    <h3>'Com a Palavra', o chefe da Divisão de Engenharia Civil do ITA, Cláudio Jorge Alves Pinto</h3>
 
-            <?php endif; ?>
-            <h5><a href="<?php the_permalink(); ?>"
-                   title="<?php echo esc_attr(sprintf(__('Permalink to %s', 'devdmbootstrap3'), the_title_attribute('echo=0'))); ?>"
-                   rel="bookmark"><?php the_title(); ?></a>
-            </h5>
+                    <p> Assista a entrevista com o chefe da Divisão de Engenharia Civil do ITA, Cláudio Jorge Alves
+                        Pinto.
+                        Ele recorda o histórico da aviação regional no país e como o governo federal tem abordado essa
+                        questão atualmente. </p>
+
+                    <h4>Assista à outros vídeos</h4>
+                        <img src="" />
+                    <p><a href="#">Veja todos os programas em nosso canal do YouTube</a></p>
+                </div> -->
+            </div>
         </div>
+    </div>
 
-        <?php wp_reset_postdata(); ?>
-    <?php endwhile; ?>
-
-    <div class="clear"></div>
 </div>
 
-
-<!-- FIM CLASSIFICADOS -->
-
-</div><!-- end row -->
+    <!-- FIM TB -->
+</div>
+<!-- end row -->
 <!-- end content container -->
 
-
-<?php /*
-<!-- Modal-->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Nova Intranet!</h4>
-            </div>
-            <div class="modal-body">
-                <img src="http://intranet/wp-content/uploads/2015/02/nova-intra1.png" alt="" class="img-responsive "/>
-
-            </div>
-
-        </div>
-    </div>
-</div>
-<script type="text/javascript">
-
-    jQuery(document).ready(function(){
-        jQuery('#myModal').modal('show');
-    });
-</script>
-*/ ?>
 
 <?php get_footer(); ?>

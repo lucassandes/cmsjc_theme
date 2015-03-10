@@ -29,21 +29,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="custom.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/custom.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.481013" vertical-offset="13683" max-vertical-offset="15096">
-              <caret line="835" column="3" selection-start-line="835" selection-start-column="3" selection-end-line="835" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.94753087" vertical-offset="14975" max-vertical-offset="15691">
+              <caret line="917" column="0" selection-start-line="917" selection-start-column="0" selection-end-line="917" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5260197" vertical-offset="2244" max-vertical-offset="8262">
-              <caret line="162" column="38" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
+            <state vertical-scroll-proportion="-4.203704" vertical-offset="198" max-vertical-offset="5933">
+              <caret line="25" column="69" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="69" />
+              <folding>
+                <element signature="e#6#38#0#PHP" expanded="true" />
+                <element signature="e#181#411#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yt-jquery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/yt-jquery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.392857" vertical-offset="1734" max-vertical-offset="2635">
+              <caret line="129" column="82" selection-start-line="129" selection-start-column="82" selection-end-line="129" selection-end-column="82" />
+              <folding>
+                <marker date="1426019043653" expanded="false" signature="4769:4780" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="391">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.5" vertical-offset="109" max-vertical-offset="833">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="youtube-player.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/youtube-player.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="476">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template-part-postmeta.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-part-postmeta.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="459">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme-options.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme-options.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.203704" vertical-offset="1558" max-vertical-offset="5627">
+              <caret line="105" column="14" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="578">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -53,17 +129,7 @@
         <entry file="file://$PROJECT_DIR$/template-part-topnav.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="646">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="old.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/old.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="132211" max-vertical-offset="137275">
-              <caret line="7799" column="24" selection-start-line="7797" selection-start-column="6" selection-end-line="7799" selection-end-column="24" />
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -79,9 +145,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/template-part-postmeta.php" />
         <option value="$PROJECT_DIR$/../../../../clicknow2/sessoes-plenarias/index.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/../../plugins/conheca/conheca.php" />
         <option value="$PROJECT_DIR$/../../plugins/dicas/dicas.php" />
         <option value="$PROJECT_DIR$/../../plugins/classificados/classificados.php" />
@@ -103,7 +167,6 @@
         <option value="$PROJECT_DIR$/sidebar-right.php" />
         <option value="$PROJECT_DIR$/tribe-events/public/template-tags/general.php" />
         <option value="$PROJECT_DIR$/tribe-events/widgets/list-widget.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$USER_HOME$/Desktop/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/less/variables.less" />
@@ -114,9 +177,15 @@
         <option value="$PROJECT_DIR$/../../../../cmsjc2015/eventos/index.php" />
         <option value="$USER_HOME$/Desktop/index2.php" />
         <option value="$PROJECT_DIR$/old.css" />
-        <option value="$PROJECT_DIR$/less/custom.less" />
+        <option value="$PROJECT_DIR$/theme-options.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/template-part-topnav.php" />
+        <option value="$PROJECT_DIR$/template-part-postmeta.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/less/youtube-player.less" />
         <option value="$PROJECT_DIR$/page-index.php" />
+        <option value="$PROJECT_DIR$/js/yt-jquery.js" />
+        <option value="$PROJECT_DIR$/less/custom.less" />
       </list>
     </option>
   </component>
@@ -185,6 +254,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intranet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmsjc_theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -198,6 +281,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../cmsjc2015/eventos/index.php" />
+    <property name="SearchEverywhereHistoryKey" value="func&#9;FILE&#9;file://C:/wamp/www/cmsjc_wp/wp-content/themes/cmsjc_theme/functions.php&#10;f&#9;FILE&#9;file://C:/wamp/www/cmsjc_wp/wp-content/themes/devdmbootstrap3/functions.php&#10;theme&#9;FILE&#9;file://C:/wamp/www/cmsjc_wp/wp-content/themes/cmsjc_theme/theme-options.php&#10;temp&#9;FILE&#9;file://C:/wamp/www/cmsjc_wp/wp-content/themes/cmsjc_theme/template-part-topnav.php&#10;in&#9;FILE&#9;file://C:/wamp/www/cmsjc_wp/wp-content/themes/cmsjc_theme/page-index.php" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -304,42 +388,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/custom.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1917" max-vertical-offset="13090">
-          <caret line="148" column="3" selection-start-line="148" selection-start-column="3" selection-end-line="148" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6358">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-classificados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1343">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="14875">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="5746">
@@ -410,6 +463,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="374">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -424,13 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="527">
           <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../devdmbootstrap3/theme-options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.203704" vertical-offset="4955" max-vertical-offset="5627">
-          <caret line="308" column="127" selection-start-line="308" selection-start-column="121" selection-end-line="308" selection-end-column="127" />
         </state>
       </provider>
     </entry>
@@ -466,13 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="739">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="493">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -525,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../devdmbootstrap3/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35507247" vertical-offset="1506" max-vertical-offset="2873">
-          <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sidebar-right.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-33.76923" vertical-offset="227" max-vertical-offset="1241">
@@ -567,13 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="527">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-classificados.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04956268" vertical-offset="255" max-vertical-offset="1343">
@@ -585,13 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="5746">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="391">
-          <caret line="11" column="121" selection-start-line="11" selection-start-column="121" selection-end-line="11" selection-end-column="121" />
         </state>
       </provider>
     </entry>
@@ -647,16 +666,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/old.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="132211" max-vertical-offset="137275">
+        <state vertical-scroll-proportion="0.504749" vertical-offset="132211" max-vertical-offset="137275">
           <caret line="7799" column="24" selection-start-line="7797" selection-start-column="6" selection-end-line="7799" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/custom.less">
+    <entry file="file://$PROJECT_DIR$/../devdmbootstrap3/theme-options.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.481013" vertical-offset="13683" max-vertical-offset="15096">
-          <caret line="835" column="3" selection-start-line="835" selection-start-column="3" selection-end-line="835" selection-end-column="3" />
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="5627">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../devdmbootstrap3/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3756906" vertical-offset="0" max-vertical-offset="2805">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="578">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-part-postmeta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="459">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme-options.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.203704" vertical-offset="1558" max-vertical-offset="5627">
+          <caret line="105" column="14" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="391">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="82" />
           <folding />
         </state>
       </provider>
@@ -664,15 +723,53 @@
     <entry file="file://$PROJECT_DIR$/template-part-topnav.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="646">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.5" vertical-offset="109" max-vertical-offset="833">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/youtube-player.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="699">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page-index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5260197" vertical-offset="2244" max-vertical-offset="8262">
-          <caret line="162" column="38" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
+        <state vertical-scroll-proportion="-4.203704" vertical-offset="198" max-vertical-offset="5933">
+          <caret line="25" column="69" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="69" />
+          <folding>
+            <element signature="e#6#38#0#PHP" expanded="true" />
+            <element signature="e#181#411#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/yt-jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.392857" vertical-offset="1734" max-vertical-offset="2635">
+          <caret line="129" column="82" selection-start-line="129" selection-start-column="82" selection-end-line="129" selection-end-column="82" />
+          <folding>
+            <marker date="1426019043653" expanded="false" signature="4769:4780" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/custom.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94753087" vertical-offset="14975" max-vertical-offset="15691">
+          <caret line="917" column="0" selection-start-line="917" selection-start-column="0" selection-end-line="917" selection-end-column="0" />
           <folding />
         </state>
       </provider>
