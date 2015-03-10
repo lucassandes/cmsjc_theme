@@ -173,6 +173,41 @@ body {
   }
 }
 
+#carousel-banner-principal {
+  .carousel-caption {
+    text-align: left;
+    //max-width: 440px;
+    left: 15%;
+    text-shadow: 1px 1px #000;
+    padding-bottom: 15px;
+    h3 {
+      a {
+        color: white;
+      }
+      font-size: @font-size-h4;
+      background: url("@{image-url}/fundo-slider.png") repeat;
+      font-weight: bold;
+      margin: 0 !important;
+      padding: 10px;
+      text-align: center;
+
+    }
+    p {
+      a {
+        color: white;
+      }
+      background: url("@{image-url}/fundo-slider.png") repeat;
+      padding: 10px;
+      margin: 0 !important;
+      font-size: @font-size-base;
+    }
+  }
+
+  .carousel-indicators {
+    bottom: 0
+  }
+}
+
 .dmbs-header-img {
 
 }
@@ -626,7 +661,6 @@ body {
 
 }
 
-
 .thin-footer {
   background-color: @thin-footer;
   padding: 1em 0 1.3em 0;
@@ -638,7 +672,6 @@ body {
     font-size: 0.85em;
   }
 }
-
 
 .red-bar, .blue-bar, .yellow-bar {
   width: 100%/3;
@@ -713,6 +746,35 @@ body {
     float: left;
   }
 
+  #carousel-banner-principal {
+    .carousel-caption {
+      width: 100%;
+      bottom: 0;
+      padding-bottom: 0;
+      left: 0;
+      h3 {
+        font-size: @font-size-h3*0.9;
+        background: url("@{image-url}/fundo-slider.png") repeat;
+        font-weight: bold;
+        padding: 15px 15px 0;
+        text-align: left;
+
+      }
+      p {
+        background: url("@{image-url}/fundo-slider.png") repeat;
+        padding: 10px 10px 10px 15px;
+        font-size: 1em;
+        text-align: left;
+      }
+    }
+
+    .carousel-indicators {
+      left: 100%;
+      max-width: 250px;
+    }
+
+  }
+
   #header {
     span.camara-municipal {
       font-size: 1.4em;
@@ -756,25 +818,43 @@ body {
     float: left;
   }
 
-  #accessibility-bar {
-    #accessibility {
-      float: left;
-      display: block;
-      width: 50%;
-    }
-    #portal-siteactions {
-      float: right;
-      display: block;
-      width: 50%;
-      text-align: right;
-    }
-  }
+  #carousel-banner-principal {
+    .carousel-caption {
+      h3 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
 
-  .dmbs-header {
-    .widget-search-top {
-      margin-top: 0em;
     }
+
+
+  .carousel-indicators {
+    left: 109%;
+    max-width: 250px;
   }
+}
+
+#accessibility-bar {
+  #accessibility {
+    float: left;
+    display: block;
+    width: 50%;
+  }
+  #portal-siteactions {
+    float: right;
+    display: block;
+    width: 50%;
+    text-align: right;
+  }
+}
+
+.dmbs-header {
+  .widget-search-top {
+    margin-top: 0em;
+  }
+}
 
 }
 

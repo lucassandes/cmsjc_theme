@@ -18,6 +18,149 @@ endwhile; endif;
 */
 ?>
 <!-- start content container -->
+<div class="container dmbs-container">
+<div id="carousel-banner-principal" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-banner-principal" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-banner-principal" data-slide-to="1"></li>
+        <li data-target="#carousel-banner-principal" data-slide-to="2"></li>
+        <li data-target="#carousel-banner-principal" data-slide-to="3"></li>
+        <li data-target="#carousel-banner-principal" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+
+
+        <div class="item active">
+            <!-- image for big devices -->
+            <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4032/mulheres+desafios+e+conquistas"><img
+                    src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/45e3ecdc4db38b39e344_1140x365_1_1.jpg"
+                    alt="Mulheres: Desafios e Conquistas" title="Mulheres: Desafios e Conquistas" class="hidden-sm hidden-xs"/></a>
+            <!--image for small devices -->
+
+            <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4032/mulheres+desafios+e+conquistas"><img
+                    src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/45e3ecdc4db38b39e344_720x400_1_1.jpg"
+                    alt="Mulheres: Desafios e Conquistas" title="Mulheres: Desafios e Conquistas" class="visible-sm visible-xs"/></a>
+
+            <div class="carousel-caption ">
+                <h3><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4032/mulheres+desafios+e+conquistas">Mulheres: Desafios e Conquistas</a></h3>
+
+                <p class=" hidden-xs"><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4032/mulheres+desafios+e+conquistas">Reportagem da TV Câmara mostra atuação da mulher na mudança da sociedade</a></p>
+            </div>
+        </div>
+        <div class="item ">
+            <!-- image for big devices -->
+            <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4030/juiz+da+vara+especial+civel+e+chefe+do+procon+visitam+a+camara"><img
+                    src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/565c4e2a9740a74309f4_1140x365_1_1.jpg"
+                    alt="Juiz da Vara Especial C�vel e chefe do Procon visitam a C�mara" title="Juiz da Vara Especial Cível e chefe do Procon visitam a Câmara" class="hidden-sm hidden-xs"/></a>
+            <!--image for small devices -->
+
+            <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4030/juiz+da+vara+especial+civel+e+chefe+do+procon+visitam+a+camara"><img
+                    src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/565c4e2a9740a74309f4_720x400_1_1.jpg"
+                    alt="Juiz da Vara Especial C�vel e chefe do Procon visitam a C�mara" title="Juiz da Vara Especial Cível e chefe do Procon visitam a Câmara" class="visible-sm visible-xs"/></a>
+
+            <div class="carousel-caption ">
+                <h3><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4030/juiz+da+vara+especial+civel+e+chefe+do+procon+visitam+a+camara">Juiz da Vara Especial Cível e chefe do Procon visitam a Câmara</a></h3>
+
+                <p class=" hidden-xs"><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4030/juiz+da+vara+especial+civel+e+chefe+do+procon+visitam+a+camara">Expectativa do presidente da Câmara é ampliar parceria para melhor atender a população</a></p>
+            </div>
+        </div>
+        <div class="item ">
+            <!-- image for big devices -->
+            <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4015/combate+as+drogas+e+a+principal+reivindicacao+em+audiencia+publica+da+pm"><img
+                    src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/7893c6a5785fe709ff63_1140x365_1_1.jpg"
+                    alt="Combate �s drogas � a principal reivindica��o em audi�ncia p�blica da PM" title="Combate às drogas é a principal reivindicação em audiência pública da PM" class="hidden-sm hidden-xs"/></a>
+            <!--image for small devices -->
+
+            <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4015/combate+as+drogas+e+a+principal+reivindicacao+em+audiencia+publica+da+pm"><img
+                    src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/7893c6a5785fe709ff63_720x400_1_1.jpg"
+                    alt="Combate �s drogas � a principal reivindica��o em audi�ncia p�blica da PM" title="Combate às drogas é a principal reivindicação em audiência pública da PM" class="visible-sm visible-xs"/></a>
+
+            <div class="carousel-caption ">
+                <h3><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4015/combate+as+drogas+e+a+principal+reivindicacao+em+audiencia+publica+da+pm">Combate às drogas é a principal reivindicação em audiência pública da PM</a></h3>
+
+                <p class=" hidden-xs"><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4015/combate+as+drogas+e+a+principal+reivindicacao+em+audiencia+publica+da+pm">A audiência sobre segurança , realizada na Câmara, contou com aproximadamente 250 pessoas</a></p>
+            </div>
+        </div>
+        <div class="item ">
+            <!-- image for big devices -->
+            <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4012/liderancas+regionais+fazem+encontro+em+defesa+do+rio+paraiba"><img
+                    src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/c2afb8d5d44453cba5d5_1140x365_1_1.jpg"
+                    alt="Lideran�as regionais fazem encontro em defesa do rio Para�ba" title="Lideranças regionais fazem encontro em defesa do rio Paraíba" class="hidden-sm hidden-xs"/></a>
+            <!--image for small devices -->
+
+            <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4012/liderancas+regionais+fazem+encontro+em+defesa+do+rio+paraiba"><img
+                    src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/c2afb8d5d44453cba5d5_720x400_1_1.jpg"
+                    alt="Lideran�as regionais fazem encontro em defesa do rio Para�ba" title="Lideranças regionais fazem encontro em defesa do rio Paraíba" class="visible-sm visible-xs"/></a>
+
+            <div class="carousel-caption ">
+                <h3><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4012/liderancas+regionais+fazem+encontro+em+defesa+do+rio+paraiba">Lideranças regionais fazem encontro em defesa do rio Paraíba</a></h3>
+
+                <p class=" hidden-xs"><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4012/liderancas+regionais+fazem+encontro+em+defesa+do+rio+paraiba">O grupo quer transparência e diálogo frente à crise hídrica</a></p>
+            </div>
+        </div>
+        <div class="item ">
+            <!-- image for big devices -->
+            <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4008/programas+utilizados+para+fazer+a+declaracao+do+ir+ja+estao+disponiveis"><img
+                    src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/dfd8b8e998a8a4800825_1140x365_1_1.jpg"
+                    alt="Programas utilizados para fazer a declara��o do IR j� est�o dispon�veis" title="Programas utilizados para fazer a declaração do IR já estão disponíveis" class="hidden-sm hidden-xs"/></a>
+            <!--image for small devices -->
+
+            <a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4008/programas+utilizados+para+fazer+a+declaracao+do+ir+ja+estao+disponiveis"><img
+                    src="http://camarasjc2.hospedagemdesites.ws/2015/arquivo/thumb/noticias/dfd8b8e998a8a4800825_720x400_1_1.jpg"
+                    alt="Programas utilizados para fazer a declara��o do IR j� est�o dispon�veis" title="Programas utilizados para fazer a declaração do IR já estão disponíveis" class="visible-sm visible-xs"/></a>
+
+            <div class="carousel-caption ">
+                <h3><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4008/programas+utilizados+para+fazer+a+declaracao+do+ir+ja+estao+disponiveis">Programas utilizados para fazer a declaração do IR já estão disponíveis</a></h3>
+
+                <p class=" hidden-xs"><a href="http://camarasjc2.hospedagemdesites.ws/2015/noticias/4008/programas+utilizados+para+fazer+a+declaracao+do+ir+ja+estao+disponiveis">Prazo para entrega da declaração vai até o próximo dia 30 de abril. </a></p>
+            </div>
+        </div>
+
+
+
+
+        <!--
+        <div class="item ">
+            <img src="images/foto-cortada2.jpg" alt="...">
+
+            <div class="carousel-caption">
+                <h3>Aprovado convênio com União para Libertadores 2</h3>
+
+                <p>Com a aprovação, prefeitura firmará convênio com a União para viabilizar nova Copa Libertadores
+                    na
+                    cidade 2</p>
+            </div>
+        </div>
+
+        <div class="item ">
+            <img src="images/foto-cortada.jpg" alt="...">
+
+            <div class="carousel-caption">
+                <h3>Aprovado convênio com União para Libertadores 3</h3>
+
+                <p>Com a aprovação, prefeitura firmará convênio com a União para viabilizar nova Copa Libertadores
+                    na
+                    cidade 3</p>
+            </div>
+        </div> -->
+
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-banner-principal" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-banner-principal" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
+<!-- slider -->
+<div class="container dmbs-container">
 
 <div class=" dmbs-content"> <!-- tinha um row aqui -->
 
