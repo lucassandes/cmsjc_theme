@@ -1,7 +1,7 @@
 <?php global $dm_settings; ?>
 <?php if ($dm_settings['show_postmeta'] != 0) : ?>
 
-    <span class="postmeta">
+    <span class="postmeta data">
 
         <?php /* categorias
            if (strcmp(get_post_type(), 'post') == 0): ?>

@@ -207,24 +207,23 @@ endwhile; endif;
         <?php //left sidebar ?>
         <?php get_sidebar('left'); ?>
 
-        <div class="col-md-<?php devdmbootstrap3_main_content_width(); ?> dmbs-main">
+        <div class="col-md-6<?php //devdmbootstrap3_main_content_width(); ?> dmbs-main">
 
-            <?php
+            <div class="destaques row">
+                <div class="col-xs-6  ">
+                    <a href="http://ged.camarasjc.sp.gov.br/municipe/" target="_blank"><img
+                            src="http://camarasjc2.hospedagemdesites.ws/2015/imgs/home/banners/banner_ged.jpg" width="293" alt="Banner Ged"
+                            class="img-responsive center-block"/></a>
+                </div>
 
-            //if this was a search we display a page header with the results count. If there were no results we display the search form.
-            if (is_search()) :
+                <div class="col-xs-6">
+                    <a href="http://www.ceaam.net/sjc/legislacao/" target="_blank"><img
+                            src="http://camarasjc2.hospedagemdesites.ws/2015/imgs/home/banners/banner_pesqleis.jpg" alt="" width="293" class="img-responsive center-block"/></a>
+                </div>
+            </div>
 
-                $total_results = $wp_query->found_posts;
 
-                echo "<h2 class='page-header'>" . sprintf(__('%s Search Results for "%s"', 'devdmbootstrap3'), $total_results, get_search_query()) . "</h2>";
 
-                if ($total_results == 0) :
-                    get_search_form(true);
-                endif;
-
-            endif;
-
-            ?>
 
             <h2>Últimas Notícias<i class="icon-angle-double-right"></i></h2>
 
@@ -244,15 +243,18 @@ endwhile; endif;
 
                         <?php get_template_part('template-part', 'postmeta'); ?>
 
-
-                        <h3 class="page-header">
+                        <!-- <h3 class="page-header"> -->
+                        <h3>
                             <a href="<?php the_permalink(); ?>"
                                title="<?php echo esc_attr(sprintf(__('Permalink to %s', 'devdmbootstrap3'), the_title_attribute('echo=0'))); ?>"
                                rel="bookmark"><?php the_title(); ?></a>
                         </h3>
 
 
-                        <?php the_excerpt(); ?>
+                        <a href="<?php the_permalink(); ?>"
+                           title="<?php echo esc_attr(sprintf(__('Permalink to %s', 'devdmbootstrap3'), the_title_attribute('echo=0'))); ?>"
+                           rel="bookmark"><?php the_excerpt(); ?>
+                            </a>
                         <?php wp_link_pages(); ?>
 
                         <?php /*if (comments_open()) : ?>
@@ -274,20 +276,47 @@ endwhile; endif;
                 <?php endwhile; ?>
 
             </div>
+            <div class="clearfix"></div>
+            <div class="destaques">
+                <h2 class="red">Últimas Notícias<i class="icon-angle-double-right"></i></h2>
+
+                <div class="col-xs-6 " style="margin-left:-15px;  padding-right: 0;">
+
+                    <a href="noticias/3255/divulgacao+dos+editais+do+concurso+publico+da+camara">
+                        <img src="http://camarasjc2.hospedagemdesites.ws/2015/imgs/home/banners/banner_concurso.jpg" alt="Banner Concurso" class="img-responsive center-block"
+                            title="Banner Concurso"/>
+                   </a>
+
+
+
+                </div>
+
+                <div class="col-xs-6 " style="margin-left:15px; padding-right: 0; ">
+                    <a href="portal-da-transparencia/">
+                        <img src="http://camarasjc2.hospedagemdesites.ws/2015/imgs/home/banners/banner_transparencia.jpg"
+                            alt="Banner Transparência" class="img-responsive center-block"
+                            title="Banner Transparência"/>
+                    </a>
+                </div>
+            </div>
 
 
 
 
-        <?php else: ?>
+            <?php else: ?>
 
             <?php get_404_template(); ?>
 
-        <?php
-        endif; ?>
+            <?php
+                endif;
+            ?>
 
 
         </div>
 
+        <div class="col-md-3 ">
+
+        </div>
 
 
         <?php //get the right sidebar ?>
@@ -334,7 +363,7 @@ endwhile; endif;
 
 </div>
 
-    <!-- FIM TB -->
+<!-- FIM TB -->
 </div>
 <!-- end row -->
 <!-- end content container -->
