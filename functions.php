@@ -13,7 +13,19 @@ function remove_more_link_scroll($link)
 add_filter('the_content_more_link', 'remove_more_link_scroll');
 
 
+    //require_once('lib/wp_bootstrap_navwalker.php');
+    require_once('lib/bootstrap-custom-menu-widget-cmsjc.php');
+	
+
 //include 'theme-options.php';
+register_nav_menus(
+    array(
+        'mobile_menu' => 'Menu Mobile',
+        'thin_menu' => 'Menu Fino'
+    )
+);
+
+
 
 if ( !function_exists('register_sidebar')) {
 register_sidebar(

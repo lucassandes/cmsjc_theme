@@ -212,17 +212,17 @@ endwhile; endif;
             <div class="destaques row">
                 <div class="col-xs-6  ">
                     <a href="http://ged.camarasjc.sp.gov.br/municipe/" target="_blank"><img
-                            src="http://camarasjc2.hospedagemdesites.ws/2015/imgs/home/banners/banner_ged.jpg" width="293" alt="Banner Ged"
+                            src="http://camarasjc2.hospedagemdesites.ws/2015/imgs/home/banners/banner_ged.jpg"
+                            width="293" alt="Banner Ged"
                             class="img-responsive center-block"/></a>
                 </div>
 
                 <div class="col-xs-6">
                     <a href="http://www.ceaam.net/sjc/legislacao/" target="_blank"><img
-                            src="http://camarasjc2.hospedagemdesites.ws/2015/imgs/home/banners/banner_pesqleis.jpg" alt="" width="293" class="img-responsive center-block"/></a>
+                            src="http://camarasjc2.hospedagemdesites.ws/2015/imgs/home/banners/banner_pesqleis.jpg"
+                            alt="" width="293" class="img-responsive center-block"/></a>
                 </div>
             </div>
-
-
 
 
             <h2>Últimas Notícias<i class="icon-angle-double-right"></i></h2>
@@ -254,7 +254,7 @@ endwhile; endif;
                         <a href="<?php the_permalink(); ?>"
                            title="<?php echo esc_attr(sprintf(__('Permalink to %s', 'devdmbootstrap3'), the_title_attribute('echo=0'))); ?>"
                            rel="bookmark"><?php the_excerpt(); ?>
-                            </a>
+                        </a>
                         <?php wp_link_pages(); ?>
 
                         <?php /*if (comments_open()) : ?>
@@ -283,17 +283,18 @@ endwhile; endif;
                 <div class="col-xs-6 " style="margin-left:-15px;  padding-right: 0;">
 
                     <a href="noticias/3255/divulgacao+dos+editais+do+concurso+publico+da+camara">
-                        <img src="http://camarasjc2.hospedagemdesites.ws/2015/imgs/home/banners/banner_concurso.jpg" alt="Banner Concurso" class="img-responsive center-block"
-                            title="Banner Concurso"/>
-                   </a>
-
+                        <img src="http://camarasjc2.hospedagemdesites.ws/2015/imgs/home/banners/banner_concurso.jpg"
+                             alt="Banner Concurso" class="img-responsive center-block"
+                             title="Banner Concurso"/>
+                    </a>
 
 
                 </div>
 
                 <div class="col-xs-6 " style="margin-left:15px; padding-right: 0; ">
                     <a href="portal-da-transparencia/">
-                        <img src="http://camarasjc2.hospedagemdesites.ws/2015/imgs/home/banners/banner_transparencia.jpg"
+                        <img
+                            src="http://camarasjc2.hospedagemdesites.ws/2015/imgs/home/banners/banner_transparencia.jpg"
                             alt="Banner Transparência" class="img-responsive center-block"
                             title="Banner Transparência"/>
                     </a>
@@ -305,17 +306,19 @@ endwhile; endif;
 
             <?php else: ?>
 
-            <?php get_404_template(); ?>
+                <?php get_404_template(); ?>
 
             <?php
-                endif;
+            endif;
             ?>
 
 
         </div>
 
-        <div class="col-md-3 ">
+        <div class="col-md-3 dmbs-main">
 
+            <?php include 'plugin-eventos.php'; ?>
+            <?php include 'plugin-social-tabs.php'; ?>
         </div>
 
 
@@ -326,7 +329,7 @@ endwhile; endif;
 
     <!-- TV CÂMARA -->
 
-    <div class="col-md-12">
+    <div class="col-md-12 dmbs-main">
         <h2 class="red">
             <div title="Code: 0xe807" class="the-icons span3">TV Câmara<i class="icon-angle-double-right"></i>
         </h2>

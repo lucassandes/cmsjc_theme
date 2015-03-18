@@ -19,7 +19,7 @@
         $.fn.youTubeChannel.defaults = {
             userName: "camarasjc",
             channel: "uploads", //options are favorites or uploads
-            loadingText: "Carregando...",
+            loadingText: "    Carregando...",
             showPlayer: false,
             playerWidth: "500",
             playerHeight: "355",
@@ -125,7 +125,7 @@
 
         function updateYouTubePlayer(div, vidId, vidTitle, vidDescription) {
 
-            var code = "<div class=\"col-md-6  video-highlight \" >";
+            var code = "<div class=\"col-md-6  video-highlight loader-gif\" >";
             code = code + ' <div class="embed-responsive embed-responsive-16by9" style="height:100%">';
             code =  code +"<iframe class=\"embed-responsive-item\" src='//www.youtube.com/embed/" + vidId + "'";
             code = code + 'frameborder="0"  allowfullscreen></iframe>';

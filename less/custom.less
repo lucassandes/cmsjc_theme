@@ -173,6 +173,35 @@ body {
   }
 }
 
+#top-menu {
+  height: 2em;
+  background-color: @primary-blue;
+  font-size: 11px;
+  margin-bottom: 20px;
+
+  ul {
+    text-align: right;
+    list-style: none;
+    -webkit-padding-start: 0px;
+
+    li {
+      display: inline;
+
+      a {
+        color: white;
+        padding: 0.3em 0 0 1em;
+        display: inline-block;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+
+  }
+}
+
 #carousel-banner-principal {
   .carousel-caption {
     text-align: left;
@@ -217,32 +246,31 @@ body {
 }
 
 .dmbs-top-menu {
-  .navbar-nav > li > a {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-  }
+  font-size: 0.9em;
   .navbar {
-    min-height: 40px !important
+    border-radius: 0px;
+    min-height: 30px;
+
   }
 
   .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background: darken(@primary-blue, 5%);
+    background-color: darken(@primary-blue, 10%);
   }
-  .navbar {
-    border-radius: 0;
-    height: 30px;
+
+  .nav > li > a {
+    color: white;
+    padding: 5px 10px;
+
+    &:hover {
+      color: black;
+    }
   }
   .container, .navbar-inverse {
     background: @primary-blue;
     border: none;
 
   }
-  .navbar-nav > li > a {
-    //padding: 0;
-  }
-  .navbar-inverse .navbar-nav > li > a {
-    color: white;
-  }
+
 }
 
 .dmbs-content {
@@ -264,6 +292,62 @@ body {
 
 }
 
+
+
+.agendaEventos {
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: white;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+
+    }
+  }
+  .nav-tabs {
+    font-weight: bold;
+    span {
+      font-size: 8px;
+
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+  .tab-content {
+    ul {
+      li {
+        padding: 1em 1em 0 1em;
+      }
+    }
+  }
+
+}
+
+.social-box {
+  width: 100%;
+  padding: 1em 0 1em 0;
+}
+
+
+.social-tab {
+  text-align: center;
+  //border-top-left-radius:0px;
+  .nav-tabs > li > a {
+    margin-right: 0;
+    border-radius: 0 !important;
+
+  }
+
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    .facebook-tab {
+      background-color: #3f5c9a !important;
+    }
+  }
+
+}
+
 .dmbs-main {
   .navigation {
     margin-bottom: 20px;
@@ -272,15 +356,18 @@ body {
   h2 {
     &.page-header {
       border-top: 4px solid @primary-blue;
-      border-bottom: 1px solid @border-color;
       color: inherit;
-      font-size: @font-size-h1;
+      font-size: @font-size-h2;
       font-weight: bold;
-      text-transform: uppercase;
       padding-top: 10px;
       letter-spacing: -2px;
       margin-top: 20px;
+
     }
+  }
+
+  .destaques{
+    margin-top: 20px;
   }
 
   .blue {
@@ -292,7 +379,10 @@ body {
     border-color: @green;
     color: @green;
   }
-
+  .dark-blue {
+    color: @primary-blue;
+    border-color:@primary-blue;
+  }
   .red {
     border-color: @primary-red;
     color: @primary-red;
@@ -315,46 +405,7 @@ body {
 
   }
 
-  .post {
-   /* border: 1px solid @border-color;
 
-    border-radius: 3px;
-    /*border-left-width: 5px;
-    border-left-color: @primary-yellow;*/
-  /*  padding: 20px 20px;
-    background: white;
-    margin: 15px 0;*/
-  /*
-    h3 {
-      font-weight: bold;
-      font-size: @font-size-h2;
-      &.page-header {
-        margin-top: 0;
-        border-bottom: none;
-        padding-bottom: 0;
-
-      }
-      a {
-        color: #3e4248;
-        font-weight: bold;
-      }
-    }
-    p {
-      font-family: Georgia, serif;
-      font-size: 16px;
-      //color: darken(@gray-lighter, 30%);
-      color: #666;
-      line-height: 27px;
-    }
-
-    p.postmeta {
-      font-family: inherit;
-      font-size: 14px;
-      color: #999;
-      margin-bottom: 0;
-    }
-  */
-  }
 
   .noticia {
     position: relative;
@@ -382,18 +433,87 @@ body {
 
 
   .post-single {
-    p.postmeta {
-      border-top: 4px solid @primary-blue;
-      color: inherit;
-      padding-top: 10px;
-      margin-top: 20px;
+
+    .header-noticias {
+      border-bottom: 1px solid @border-color;
+      margin-bottom: 15px;
+      margin-top: 10px;
+      &.row {
+        margin-right: 0;
+        margin-left: 0;
+      }
+
+      ul {
+        margin: 0 0 5px 0;
+        padding: 0;
+        li {
+          list-style: none;
+
+        }
+      }
+
+      .midias {
+        padding-left: 0;
+        ul {
+          li {
+            .fb-share-button {
+              padding-right: 33px;
+            }
+          }
+        }
+      }
+
+      .funcoes {
+
+        ul {
+          text-align: right;
+          margin-top:3px;
+          li {
+            margin-left: 10px;
+
+            a {
+              color: @gray-dark;
+              font-size: 0.9em;
+            }
+          }
+        }
+      }
     }
+
+    p.data {
+      border-top: 4px solid  @primary-blue;
+      color: darken(@gray-light, 20%);
+      text-transform: uppercase;
+      font-size: 0.8em;
+      font-weight: normal;
+      padding-top: 0.9em;
+
+      margin: 20px 0 0 0;
+    }
+
+    p {
+      line-height: @line-height-small;
+      font-size: 1.2em;
+
+    }
+
     h2 {
       border-top: none;
-      border-bottom: 1px solid @border-color;
-      padding-top: 0px;
+      border: none;
+      text-transform: none;
+      margin: 0;
+      padding: 0.3em 0 0 0;
       letter-spacing: -2px;
+    }
+    h3 {
+      border-bottom: 1px solid @border-color;
+      padding-bottom: 0px;
       margin-top: 10px;
+      color: @gray-light;
+      font-size: 21px;
+      font-weight: normal;
+      letter-spacing: -1px;
+
     }
   }
 
@@ -546,95 +666,8 @@ body {
     border-color: @primary-green;
   }
 
-  .widget-proximos-aniversariantes, .birthdays-widget {
-    padding-top: 10px;
-    .item-aniversario {
-      // border-bottom: 1px dotted darken(@border-color, 10%);
-      padding: 10px 0;
 
-      img {
-        float: left;
-        margin-right: 10px;
-      }
 
-      .dia {
-        float: left;
-        width: 60px;
-        margin-left: 10px;
-        h4, h5 {
-          font-family: Georgia, "Times New Roman", Times, serif;
-          font-size: 35px;
-          margin: 0;
-          margin-right: 10px;
-          text-align: center;
-          padding: 0;
-        }
-        h5 {
-          font-size: 14px;
-          margin-bottom: 5px;
-        }
-      }
-      ul {
-        list-style: none;
-        li {
-          padding-bottom: 5px;
-
-          &.nome-vereador {
-            .bolo-aniversario {
-              position: relative;
-              top: 0px;
-              display: inline-block;
-              font-style: normal;
-              font-weight: normal;
-              line-height: 1;
-              background: url("@{image-url}/birthday-cake.png") no-repeat;
-              width: 20px;
-            }
-
-            font-weight: bold;
-            margin-top: 8px;
-            margin-bottom: 0;
-            font-size: 16px;
-          }
-
-          &.local-trabalho, &.data {
-            margin: 0;
-            padding: 0;
-            color: #666;
-            font-family: Georgia, serif;
-          }
-
-          &.data {
-            color: inherit;
-
-          }
-
-        }
-      }
-    }
-  }
-
-  .widget-proximos-eventos {
-
-    ul {
-      border-bottom: 1px dashed darken(@border-color, 10%);
-      padding: 10px 0;
-      list-style: none;
-      li {
-        padding-bottom: 5px;
-        &.data {
-          font-size: 16px;
-          font-weight: bold;
-          color: inherit;
-        }
-
-        &.local {
-          color: #666;
-          font-family: Georgia, serif;
-        }
-      }
-    }
-  }
 }
 
 html {
@@ -701,7 +734,7 @@ body {
     margin-top: 30px;
     padding: 0;
     font-weight: bolder;
-    text-transform: uppercase;
+    text-transform: ;
     font-size: 22px;
   }
   h3 {
@@ -797,6 +830,21 @@ body {
     float: left;
   }
 
+  .post-single {
+    .header-noticias {
+      ul {
+        margin: 0 0 5px 0;
+        padding: 0;
+        li {
+          list-style: none;
+          display: inline;
+
+        }
+      }
+
+    }
+  }
+
   #carousel-banner-principal {
     .carousel-caption {
       width: 100%;
@@ -872,7 +920,7 @@ body {
   .tv-camara-widget {
     p {
       max-height: 120px;
-      overflow-y: scroll;
+      //  overflow-y: scroll;
 
     }
   }
@@ -927,10 +975,31 @@ body {
     width: 20%;
     float: left;
   }
+
+  .social-tab {
+
+    text-align: center;
+    //border-top-left-radius:0px;
+    .nav-tabs > li > a {
+      margin-right: 0;
+      border-radius: 0 !important;
+      width: 131px;
+    }
+
+  }
+
 }
 
 .loader-gif {
   background: url("@{image-url}/gif-loader.GIF") center center no-repeat;
+}
+
+.loader-fb {
+  min-height: 227px ;
+}
+
+.fb-like-box {
+  background:white;
 }
 
 
@@ -964,4 +1033,9 @@ body {
     margin-right:15px;
     margin-left:-15px;
   }*/
+}
+
+#share-buttons img {
+  width:35px;
+  padding: 0 5px 5px 5px;
 }

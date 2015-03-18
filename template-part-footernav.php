@@ -1,4 +1,4 @@
-<?php //if (has_nav_menu('footer_menu')) : ?>
+<?php if (has_nav_menu('footer_menu')) : ?>
 
     <div class="footer">
         <div class="red-bar"></div><div class="yellow-bar"></div><div class="blue-bar"></div>
@@ -33,6 +33,7 @@
                 </nav>
             </div>
         </div>
+        <?php endif; ?>
 
         <div class="thin-footer">
             <div class="container">
@@ -58,4 +59,3 @@
     </div>
 
 
-<?php //endif; ?>
